@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 =begin
 RCS fast export: run the script with the `--help` option for further
@@ -11,6 +11,27 @@ your PATH. I myself have this symlink:
 	~/bin/rcs-fast-export -> ~/src/rcs-fast-export/rcs-fast-export.rb
 
 allowing me to run `rcs-fast-export` from anywhere.
+
+This code was cloned from from:
+
+    https://github.com/MichaelEischer/rcs-fast-export
+
+which in turn was cloned from:
+
+    https://github.com/Oblomov/rcs-fast-export
+
+with PR mods from:
+
+    https://github.com/Oblomov/rcs-fast-export/pull/8
+    https://github.com/Oblomov/rcs-fast-export/pull/10
+
+plus this Makefile and .gitignore from:
+
+    https://github.com/lcn2/rcs-fast-export
+
+See also the rcs2git(1) tool from:
+
+    https://github.com/lcn2/gitutil/blob/master/rcs2git
 =end
 
 =begin
@@ -102,7 +123,7 @@ commit, unless --no-symbol-check is specified or rcs.symbolCheck is set to
 false in the git configuration.
 
 Typical usage:
-    git init && rcs-fast-export.rb . | git fast-import && git reset
+    git init && /usr/local/bin/rcs-fast-export . | git fast-import && git reset
 
 Options:
 	--help, -h, -?		display this help text
