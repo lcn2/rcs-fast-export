@@ -49,5 +49,5 @@ clobber quick_clobber: clean
 	${RM} -f ${TARGETS}
 
 install: all
-	${INSTALL} -d 0655 ${DESTDIR}
+	${INSTALL} -d -m 0755 ${DESTDIR}
 	${INSTALL} -m 0555 ${TARGETS} ${DESTDIR}
