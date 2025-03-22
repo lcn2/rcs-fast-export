@@ -1,6 +1,6 @@
 #!/usr/bin/env make
 #
-# rcs-fast-export - RCS fast export
+# rcs-fast-export - RCS fast export to git
 #
 # This code was cloned from from:
 #
@@ -15,13 +15,15 @@
 #     https://github.com/Oblomov/rcs-fast-export/pull/8
 #     https://github.com/Oblomov/rcs-fast-export/pull/10
 #
-# plus this Makefile and .gitignore from:
+# plus a Makefile, rename to rcs-fast-export, fix of the top #! line, and .gitignore from:
 #
 #     https://github.com/lcn2/rcs-fast-export
 #
 # See also the rcs2git(1) tool from:
 #
 #     https://github.com/lcn2/gitutil/blob/master/rcs2git
+#
+# NOTE: The following Copyright only applies to this Makefile:
 #
 # Copyright (c) 2025 by Landon Curt Noll.  All Rights Reserved.
 #
