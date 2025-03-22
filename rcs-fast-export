@@ -1,16 +1,8 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby
 
 =begin
 RCS fast export: run the script with the `--help` option for further
 information.
-
-No installation needed: you can run it from anywhere, including the git
-checkout directory. For extra comfort, symlink it to some directory in
-your PATH. I myself have this symlink:
-
-	~/bin/rcs-fast-export -> ~/src/rcs-fast-export/rcs-fast-export.rb
-
-allowing me to run `rcs-fast-export` from anywhere.
 =end
 
 =begin
