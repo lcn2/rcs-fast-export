@@ -11,11 +11,11 @@ sudo make install
 ```
 
 
-# To use
+# Example
 
 ```sh
-cd /tree-under-RCS-control
-/usr/local/bin/rcs-fast-export . | git fast-import && git reset
+$ cd /tree-under-RCS-control
+$ /usr/local/bin/rcs-fast-export . | git fast-import && git reset
 ```
 
 
